@@ -1,5 +1,5 @@
 {
-  "name": "smart-static-jade",
+  "name": "smart-static-mem-cache",
   "version": "0.1.0",
   "description": "Memory cache engine for smart-static.",
   "author": "Kristian Trenskow <trenskow@me.com>",
