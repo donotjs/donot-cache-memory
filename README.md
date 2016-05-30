@@ -15,7 +15,7 @@ Usage: `memCache()`
 	    donot = require('donot'),
 	    memCache = require('donot-cache-memory');
 
-	var server = http.createServer(donot({
+	var server = http.createServer(donot(__dirname + '/public', {
 		cache: memCache()
 	}));
 
