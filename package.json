@@ -1,12 +1,12 @@
 {
-  "name": "smart-static-mem-cache",
-  "version": "1.0.2",
-  "description": "Memory cache engine for smart-static.",
+  "name": "donot-cache-memory",
+  "version": "1.0.0",
+  "description": "Memory cache engine for donot.",
   "author": "Kristian Trenskow <trenskow@me.com>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trenskow/smart-static-mem-cache"
+    "url": "https://github.com/donotjs/donot-cache-memory"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
