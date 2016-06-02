@@ -13,10 +13,10 @@ Usage: `memCache()`
 
 	var http = require('http'),
 	    donot = require('donot'),
-	    memCache = require('donot-cache-memory');
+	    MemoryCache = require('donot-cache-memory');
 
 	var server = http.createServer(donot(__dirname + '/public', {
-		cache: memCache()
+		cache: new MemoryCache()
 	}));
 
 	server.listen(8000);
