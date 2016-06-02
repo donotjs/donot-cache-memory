@@ -2,10 +2,10 @@
 
 'use strict';
 
-var expect = require('chai').expect;
-var MemoryCache = require('../');
+const expect = require('chai').expect;
+const MemoryCache = require('../');
 
-var cache = new MemoryCache();
+const cache = new MemoryCache();
 
 describe('cache', function() {
 
