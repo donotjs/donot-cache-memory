@@ -15,5 +15,8 @@
   "scripts": {
     "test": "mocha test/*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@donotjs/donot-cache": "^1.0.1"
+  }
 }

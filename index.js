@@ -1,15 +1,25 @@
 'use strict';
 
-var cache = {};
+const Cache = require('@donotjs/donot-cache');
 
-exports = module.exports = function() {
-  return {
-    get: function(file, cb) {
-      cb(null, cache[file]);
-    },
-    set: function(file, data, cb) {
-      cache[file] = data;
-      cb(null);
-    }
-  };
-};
+class MemoryCache extends Cache {
+
+	constructor() {
+		super();
+		this.cache = {};
+	}
+
+	get(filename) {
+		return Promise.resolve(this.cache[filename]);
+	}
+
+	set(filename, data) {
+		return new Promise((resolved) => {
+			this.cache[filename] = data;
+			resolved();
+		});
+	}
+
+}
+
+module.exports = exports = MemoryCache;
