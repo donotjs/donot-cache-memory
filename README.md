@@ -27,7 +27,7 @@ Usage: `new MemoryCache()`
 
 This plug-in keeps all cache in memory and it does not take memory usage into account.
 
-If you need large amounts of caching - e.g. you have many templates - it is recommended to use the [donot-cache-memory](https://github.com/donotjs/donot-cache-filesystem) file system cache plug-in.
+If you need large amounts of caching - e.g. you have many templates - it is recommended to use the [donot-cache-filesystem](https://github.com/donotjs/donot-cache-filesystem) or [donot-cache-redis](https://github.com/donotjs/donot-cache-redis).
 
 # License
 
