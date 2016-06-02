@@ -1,7 +1,7 @@
 {
   "name": "@donotjs/donot-cache-memory",
   "version": "1.0.0",
-  "description": "Memory cache engine for donot.",
+  "description": "Memory cache for donot.",
   "author": "Kristian Trenskow <trenskow@me.com>",
   "main": "index.js",
   "repository": {
